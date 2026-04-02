@@ -17,7 +17,7 @@ class ChatLmStudio_ChatModels implements INode {
     inputs: INodeParams[]
 
     constructor() {
-        this.label = 'Chat LMStudio'
+        this.label = 'LMStudio'
         this.name = 'chatLmStudio'
         this.version = 3.0
         this.type = 'ChatLmStudio'
