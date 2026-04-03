@@ -59,6 +59,7 @@ class LmStudioEmbedding_Embeddings implements INode {
 
         const obj: Partial<LmStudioEmbeddingsParams> & { configuration?: ClientOptions } = {
             modelName,
+            encodingFormat: 'float',
             configuration: {
                 apiKey: lmStudioApiKey,
                 baseURL
